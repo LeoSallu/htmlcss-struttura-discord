@@ -78,10 +78,31 @@ header{
 /* MAIN  */
 .sezione1{
     display:flex;
-    width: 1900px;
+    width: 1950px;
     height: 490px;
     background-color: darkblue;
     justify-content: center;
     align-items: center;
+}
+.sezione2{
+    display:flex;
+    width: 1900px;
+    height: 480px;
+    margin: 35px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+.blue{
+    background-color: cornflowerblue;
+    width:40%;
+    min-height: 480px;
+    border: dashed 1px;
+}
+.pink{
+    background-color: pink;
+    width: 20%;
+    min-height: 480px;
+    border: dashed 1px;
 }
 

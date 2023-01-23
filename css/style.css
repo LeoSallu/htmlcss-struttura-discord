@@ -86,9 +86,10 @@ header{
 }
 .sezione2{
     display:flex;
-    width: 1900px;
+    width: 100%x;
     height: 480px;
-    margin: 35px;
+    margin: 10px;
+    padding: 35px;
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -105,4 +106,24 @@ header{
     min-height: 480px;
     border: dashed 1px;
 }
+.reverse{
+    flex-direction: row-reverse;
+    background-color: lightgray;
+    margin: 35px 0;
+}
+.sezione3{
+    display:flex;
+    width: 100%x;
+    height: 480px;
+    margin: 10px;
+    padding: 35px;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
 
+}
+.greenbox{
+    width: 80%;
+    min-height: 70%;
+    background-color: #228b22;
+}

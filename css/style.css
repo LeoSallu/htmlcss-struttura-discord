@@ -7,4 +7,66 @@
 }
 
 /* Debug */
+    
+*.menu {
+    background-color: #daa520;
+    width: 1200px;
+    height: 50px;
+    
+}
+.logo, .lista, .login{
+    display: flex;
+    border: 2px dashed;
+    align-items: center;
+}
+.logo, .login{
+    display: flex;
+    width: 245px;
+    height: 47px;
+    align-items: center;
+
+}
+.logo{
+     padding-left: 7px;
+}
+.login{
+  justify-content: end;
+  padding-right: 7px;
+}
+.lista{
+    width: 720px;
+    height: 47px;
+    justify-content: center;
+}
+
+
+
+
+/* Header */
+header{
+    width: 1920px;
+    height: 70px;
+    background-color: #add8e6;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+    
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.elenco {
+    list-style-type: none;
+    display: flex;
+}
+.linkli{
+    margin: 0 5px;
+}
+*header{
+    background-color: chocolate;
+    border: 1px dashed black;
+}
 
